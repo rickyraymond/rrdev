@@ -100,11 +100,11 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "ufluencer",
-            // live: "https://paytonpierce.dev",
+            title: "ufluence",
+            live: "https://ufluence.rickyraymond.dev",
             // image: mock1,
             type: 'project',
-            description: "A generative AI powered web app for generating social media content. Experimental build. Currently supports instagram image captions and hashtags. Built using React, Express, OpenAI's GPT-3.5, AWS Rekognition and S3."
+            description: "A generative AI powered web app for generating social media content. Build in progress. Currently supports instagram image captions and hashtags. Built using React, Express, OpenAI's GPT-3.5, AWS Rekognition, S3,  and Postgresql. Deployed on Netlify and Render."
         },
         {
             title: "Wildfire, LLC",

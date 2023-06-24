@@ -9,11 +9,11 @@ footer {
   color: $white;
   transition: all 400ms;
 
-  a, i, li {
-    color: $white;
+  a, i, li{
+    color: $white!important;
     transition: color 400ms;
   }
-
+  
   a:visited {
     color: $white;
   }

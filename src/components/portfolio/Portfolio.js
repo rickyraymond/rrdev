@@ -15,11 +15,11 @@ export default function Portfolio() {
     return (
         <Box>
             <Box component={'section'} p={'1rem'} textAlign={'center'} margin={'40px 0 0 0'}>
-                <Box margin={'0 auto'} maxWidth={'700px'} padding={'1rem 2rem'} component={'p'} fontSize={'1.5rem'}>Here are some of my projects and previous employment. I'm always working on something new, so check back often!</Box>
+                <Box margin={'0 auto'} maxWidth={'960px'} padding={'1rem 2rem'} component={'p'} fontSize={'1.5rem'}>Here are some of my personal projects, example work, and previous employment. I'm always working on something new, so check back often!</Box>
 
                 <FormControl variant="filled" sx={{ m: 1, minWidth: 120, border: 'none' }} size="small">
-                    <InputLabel id="filter-by-type-label">Type</InputLabel>
-                    <Box component={'div'} bgcolor={'#fff'}>
+                    <InputLabel id="filter-by-type-label" color='secondary'>Type</InputLabel>
+                    <Box component={'div'} bgcolor={'rgba(255,255,255,.4)'}>
                         <Select
                             labelId="filter-by-type-label"
                             id="filter-by-type"
