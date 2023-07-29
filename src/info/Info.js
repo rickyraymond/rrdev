@@ -83,10 +83,6 @@ export const info = {
             emoji: '🎥'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
-        },
-        {
             label: 'games',
             emoji: '🎮'
         },
@@ -109,12 +105,14 @@ export const info = {
         },
         {
             title: "Wildfire, LLC",
+            year: "Current Position",
             description: "A full stack web application developer for a creative agency based in Winston-Salem, NC. Technologies and frameworks used include PHP, JavaScript, Bootstrap, WordPress, Shopify, and WooCommerce.",
             type: 'job',
             image: wf
         },
         {
             title: "PZ Marketing",
+            year: "2019-2022",
             description: "A full stack developer for a small marketing agency based in Johnson City, TN. Technologies and frameworks used include PHP, JavaScript, WordPress, and WooCommerce.",
             type: 'job',
             image: pz

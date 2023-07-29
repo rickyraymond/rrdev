@@ -3,7 +3,7 @@ import IconLink from "./IconLink";
 import { Box } from "@mui/material";
 
 function PortfolioBlock(props) {
-   const { image, live, source, title, description, type } = props;
+   const { image, live, source, title, description, type, year } = props;
    const [isDesktop, setIsDesktop] = useState(window.innerWidth > 767);
 
    const handleResize = () => {
@@ -22,6 +22,7 @@ function PortfolioBlock(props) {
             <Box component={'img'} src={image} alt={'mockup'} marginBottom={'2rem'} maxHeight={'200px'} width={'100%'} sx={{ objectFit: 'cover' }} />
          )}
          <h2 style={{ fontSize: '2rem' }}>{title}</h2>
+         <i style={{fontWeight: '400', fontSize: '1.5rem'}}>{year}</i>
          <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
             alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
             <Box padding={'1rem 2rem'} component={'p'}>{description}</Box>

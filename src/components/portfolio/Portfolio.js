@@ -43,7 +43,7 @@ export default function Portfolio() {
                     .filter(project => selectedType === 'all' ? true : project.type === selectedType)
                     .map((project, index) => (
                         <Grid item xs={12} md={6} key={index} sx={{maxWidth:500}}>
-                            <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} description={project.description} type={project.type} />
+                            <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} description={project.description} type={project.type} year={project.year} />
                         </Grid>
                     ))}
             </Grid>
