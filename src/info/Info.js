@@ -20,16 +20,16 @@ export const info = {
     baseColor: colors[0],
     miniBio: [ 
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: '💻',
+            text: 'skilled in php, javascript, and react'
         },
         {
             emoji: '🌎',
-            text: 'in Johnson City, TN'
+            text: 'based in Johnson City, TN'
         },
         {
             emoji: '🔥',
-            text: "web developer at Wildfire in Winston-Salem, NC",
+            text: "web app developer at Wildfire in Winston-Salem, NC",
         },
         {
             emoji: "📧",
