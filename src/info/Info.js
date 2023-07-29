@@ -1,6 +1,7 @@
 import self from "../img/self.svg"
 import wf from "../img/wf.png"
 import pz from "../img/pz.png"
+import uf from "../img/uflu.png"
 // import mock1 from "../img/mock1.png"
 // import mock2 from "../img/mock2.png"
 // import mock3 from "../img/mock3.png"
@@ -102,7 +103,7 @@ export const info = {
         {
             title: "ufluence",
             live: "https://ufluence.rickyraymond.dev",
-            // image: mock1,
+            image: uf,
             type: 'project',
             description: "A generative AI powered web app for generating social media content. Build in progress. Currently supports instagram image captions and hashtags. Built using React, Express, OpenAI's GPT-3.5, AWS Rekognition, S3,  and Postgresql. Deployed on Netlify and Render."
         },
