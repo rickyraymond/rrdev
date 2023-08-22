@@ -2,6 +2,7 @@ import self from "../img/self.svg"
 import wf from "../img/wf.png"
 import pz from "../img/pz.png"
 import uf from "../img/uflu.png"
+import aj from "../img/aj.png"
 // import mock1 from "../img/mock1.png"
 // import mock2 from "../img/mock2.png"
 // import mock3 from "../img/mock3.png"
@@ -48,21 +49,21 @@ export const info = {
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
-        // {
-        //     link: "https://github.com/rickyraymond",
-        //     icon: "fa fa-github",
-        //     label: 'github'
-        // },
-        // {
-        //     link: "https://linkedin.com",
-        //     icon: "fa fa-linkedin",
-        //     label: 'linkedin'
-        // },
         {
-            link: "https://twitter.com/tweetsbyraymond",
-            icon: "fa fa-twitter",
-            label: 'twitter'
+            link: "https://github.com/rickyraymond",
+            icon: "fa fa-github",
+            label: 'github'
         },
+        {
+            link: "https://www.linkedin.com/in/ricky-raymond-85a023200/",
+            icon: "fa fa-linkedin",
+            label: 'linkedin'
+        },
+        // {
+        //     link: "https://twitter.com/tweetsbyraymond",
+        //     icon: "fa fa-twitter",
+        //     label: 'twitter'
+        // },
         {
             link: "https://letterboxd.com/rickyraymond05/",
             icon: "fa fa-film",
@@ -70,11 +71,11 @@ export const info = {
         }
 
     ],
-    bio: "Hello! I'm Ricky. I'm a web applications developer for Wildfire, LLC. I studied Computing at East Tennessee State University and Cinema Production at Virginia Tech. In my free time I enjoy experimenting with new web and cloud technologies and AI models. When AFK I am typically spending time with my family, taking walks, or listening to/playing music.",
+    bio: "Hello! I'm Ricky. I'm a web applications developer for Wildfire, LLC. I studied Computing at East Tennessee State University and Cinema Production at Virginia Tech. In my free time I enjoy experimenting with new web and cloud technologies and AI models. When AFK I am typically spending time with my family, watching a movie, or listening to/playing music.",
     skills:
         {
-            proficientWith: ['php', 'javascript', 'react', 'mysql', 'git', 'github', 'c#', 'java', 'bootstrap', 'html5', 'css3', 'figma/xd'],
-            exposedTo: ['nodejs', 'python', 'express', 'mongodb', 'aws', 'gcp', 'azure', 'docker', 'flutter', 'drupal', 'joomla', ]
+            proficientWith: ['php', 'node/express', 'javascript', 'react', 'mysql', 'postgres', 'git', 'github', 'c#', 'java', 'bootstrap', 'html5', 'css3', 'figma/xd'],
+            exposedTo: ['python', 'mongodb', 'aws', 'gcp', 'azure', 'docker', 'flutter', 'drupal', 'joomla', ]
         }
     ,
     hobbies: [
@@ -102,6 +103,13 @@ export const info = {
             image: uf,
             type: 'project',
             description: "A generative AI powered web app for generating social media content. Build in progress. Currently supports instagram image captions and hashtags. Built using React, Express, OpenAI's GPT-3.5, AWS Rekognition, S3,  and Postgresql. Deployed on Netlify and Render."
+        },
+        {
+            title: "AdaptAJob",
+            live: "https://adaptajob-frontend.onrender.com/",
+            image: aj,
+            type: 'project',
+            description: "To exhibit a full-stack React and Express architecture as well as experiment with fine-tuning appraches to OpenAI's GPT-4. Built using React, Express, OpenAI's GPT-4, and Postgresql. Deployed on Render and AWS."
         },
         {
             title: "Wildfire, LLC",
