@@ -107,6 +107,7 @@ export const info = {
         {
             title: "AdaptAJob",
             live: "https://adaptajob-frontend.onrender.com/",
+            
             image: aj,
             type: 'project',
             description: "To exhibit a full-stack React and Express architecture as well as experiment with fine-tuning appraches to OpenAI's GPT-4. Built using React, Express, OpenAI's GPT-4, and Postgresql. Deployed on Render and AWS."
