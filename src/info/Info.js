@@ -1,4 +1,4 @@
-import self from "../img/self.svg"
+import self from "../img/self.png"
 import wf from "../img/wf.png"
 import pz from "../img/pz.png"
 import uf from "../img/uflu.png"
@@ -39,16 +39,6 @@ export const info = {
         }
     ],
     socials: [
-        // {
-        //     link: "https://facebook.com",
-        //     icon: 'fa fa-facebook',
-        //     label: 'facebook'
-        // },
-        {
-            link: "https://instagram.com/rickyraymond",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
         {
             link: "https://github.com/rickyraymond",
             icon: "fa fa-github",
@@ -59,11 +49,6 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        // {
-        //     link: "https://twitter.com/tweetsbyraymond",
-        //     icon: "fa fa-twitter",
-        //     label: 'twitter'
-        // },
         {
             link: "https://letterboxd.com/rickyraymond05/",
             icon: "fa fa-film",
@@ -71,7 +56,7 @@ export const info = {
         }
 
     ],
-    bio: "Hello! I'm Ricky. I'm a web applications developer for Wildfire, LLC. I studied Computing at East Tennessee State University and Cinema Production at Virginia Tech. In my free time I enjoy experimenting with new web and cloud technologies and AI models. When AFK I am typically spending time with my family, watching a movie, or listening to/playing music.",
+    bio: "Hello! I'm Ricky. I'm a web applications developer for Wildfire in Winston-Salem, NC. I studied Computing at East Tennessee State University and Cinema Production at Virginia Tech. In my free time I enjoy experimenting with new web and cloud technologies and AI models. When AFK I am typically spending time with my family, watching a movie, or listening to/playing music.",
     skills:
         {
             proficientWith: ['php', 'node/express', 'javascript', 'react', 'mysql', 'postgres', 'git', 'github', 'c#', 'java', 'bootstrap', 'html5', 'css3', 'figma/xd'],
@@ -110,19 +95,19 @@ export const info = {
             
             image: aj,
             type: 'project',
-            description: "To exhibit a full-stack React and Express architecture as well as experiment with fine-tuning appraches to OpenAI's GPT-4. Built using React, Express, OpenAI's GPT-4, and Postgresql. Deployed on Render and AWS."
+            description: "To exhibit a full-stack React and Express architecture as well as experiment with fine-tuning approaches to OpenAI's GPT-4. Built using React, Express, OpenAI's GPT-4, and Postgresql. Deployed on Render and AWS."
         },
         {
-            title: "Wildfire, LLC",
+            title: "Wildfire",
             year: "Current Position",
-            description: "A full stack web application developer for a creative agency based in Winston-Salem, NC. Technologies and frameworks used include PHP, JavaScript, Bootstrap, WordPress, Shopify, and WooCommerce.",
+            description: "A web application developer for a creative agency based in Winston-Salem, NC. Technologies and frameworks used include PHP, JavaScript, Bootstrap 5, Foundation, SCSS, Shopify, and WordPress.",
             type: 'job',
             image: wf
         },
         {
             title: "PZ Marketing",
             year: "2019-2022",
-            description: "A full stack developer for a small marketing agency based in Johnson City, TN. Technologies and frameworks used include PHP, JavaScript, WordPress, and WooCommerce.",
+            description: "A full-stack developer for a marketing agency in Johnson City, TN. Technologies and frameworks used include PHP, JavaScript, Bootstrap, SCSS, MySQL, and WordPress.",
             type: 'job',
             image: pz
         }
