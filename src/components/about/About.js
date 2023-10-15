@@ -50,11 +50,19 @@ export default function About() {
         </>;
     }
 
+    function resumeText() {
+        return <>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> download resume</p>
+            <p><a href="https://docs.google.com/document/d/1udOoRyNXofpx1swHKsElT6hy4qCGpejs/edit?usp=sharing&ouid=109018807791803660222&rtpof=true&sd=true" download target='_blank'>Click here to download my resume</a></p>
+        </>;
+    }    
+
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
             <Terminal text={miscText()}/>
+            <Terminal text={resumeText()}/>
         </Box>
     )
 }
